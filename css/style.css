@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --wh: #fff;
+    --brown: #432b13;
+    --blight:#6e8c8d;
+    --bdark:#091218;
+    --bgray:#2c7b90;
+    --gr:#dcdcdb
+}
+
+body{
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem
+}
+
+section{
+    padding-top: 5rem;
+    padding: 5rem;
+    color: var(--wh);
+}
+
+#hero{
+    background-image: url("../img/coverastro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay{
+    position: relative;
+    z-index: 2;
+}
+
+.overlay::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--bgray);
+    z-index: -1;
+    opacity: 0.5;
+
+}
