@@ -8,11 +8,12 @@
 
 :root {
     --wh: #fff;
-    --brown: #432b13;
-    --blight:#6e8c8d;
-    --bdark:#091218;
-    --bgray:#2c7b90;
-    --gr:#dcdcdb
+    --brown: #2d272b;
+    --blight:#84afc2;
+    --bdark:#416c89;
+    --bgray:#d8e6e2;
+    --gr:#847661;
+    --bl: #1f8de7;
 }
 
 body{
@@ -34,17 +35,23 @@ a{
 section{
     padding-top: 5rem;
     padding: 5rem;
-    color: var(--wh);
+    color: var(--brown);
 }
 
 #hero{
-    background-image: url("../img/coverastro.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../img/nw.jpg");
     height: 100vh;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#hero h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+
 }
 .overlay{
     position: relative;
@@ -58,8 +65,45 @@ section{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: var(--bgray);
+    background-color: var(--bdark);
     z-index: -1;
-    opacity: 0.5;
+    opacity: 0.4;
+}
 
+.btn{
+    padding: 1rem 2rem;
+    font-style: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-primary{
+    background-color: var(--bl);
+    border-color: var(--bl);
+    border-radius: 100px;
+    color: var(--wh);
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color: var(--blight);
+}
+
+.navbar{
+    transition: all 0.4s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: var(--wh);
+}
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color: var(--bl);
+}
+
+.intro .divider{
+    background-color: var(--bdark);
+    height: .125rem;
+    width: 7.5rem;
+    margin: 1.5rem auto;
 }
