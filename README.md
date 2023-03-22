@@ -17,7 +17,7 @@ A Bootstrap landing page template
 - and more ..
 
 #Credit
-💻Icons: https://remixicon.com/
-💻Fonts: https://fonts.google.com/share?selection.family=Amatic%20SC:wght@400;700
-💻https://www.pexels.com/
-💻https://unsplash.com/
+- Icons: https://remixicon.com/
+- Fonts: https://fonts.google.com/share?selection.family=Amatic%20SC:wght@400;700
+- https://www.pexels.com/
+- https://unsplash.com/
