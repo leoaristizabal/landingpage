@@ -101,9 +101,49 @@ section{
     color: var(--bl);
 }
 
+.intro{
+    margin-bottom: 3.125rem;
+}
+
 .intro .divider{
     background-color: var(--bdark);
     height: .125rem;
     width: 7.5rem;
     margin: 1.5rem auto;
+}
+
+.icon-box{
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--bdark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin: 0 auto 1.5rem auto;
+    color: var(--wh);
+}
+
+.icon-box i{
+    font-size: 2rem;
+
+}
+
+#milestone{
+    background-image: url("../img/nw.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+}
+
+.counter .number{
+    line-height: 1;
+}
+
+.counter .divider{
+    width: 2.5rem;
+    height: .125rem;
+    background-color: var(--blight);
+    margin: 1rem auto;
 }
