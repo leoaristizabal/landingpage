@@ -1,4 +1,4 @@
-# leoAristizabal
+# LeoAristizabal
 
 A Bootstrap landing page template
 
