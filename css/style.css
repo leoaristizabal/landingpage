@@ -135,6 +135,7 @@ section{
     border-radius: 100px;
     margin: 0 auto 1.5rem auto;
     color: var(--wh);
+    flex: none;
 }
 
 .icon-box i{
@@ -187,4 +188,8 @@ section{
 .project:hover .project-info{
     opacity: 1;
     transform: scale(1);
+}
+
+.service-box {
+    display: flex;
 }
