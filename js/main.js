@@ -6,3 +6,11 @@ $(window).scroll(function(){
         $('.navbar').css('background', 'transparent');
     }
 })
+
+//reviews
+$('.reviews-sider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    items: 1,
+})
