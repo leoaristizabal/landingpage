@@ -193,3 +193,20 @@ section{
 .service-box {
     display: flex;
 }
+
+#reviews {
+    background-image: url("../img/nw.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.review{
+    max-width: 50rem;
+    margin: auto;
+}
+
+.review .quote{
+    font-size: 2rem;
+    color: var(--blight);
+}
+
