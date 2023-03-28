@@ -45,6 +45,9 @@
                         <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
@@ -54,7 +57,7 @@
     </nav>
 
     <!--Hero-->
-    <section id="hero" class="text-white text-center overlay">
+    <section  id="hero" class="text-white text-center overlay" data-jarallax data-speed="0.5" class="jarallax">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -73,7 +76,7 @@
                 <div class="col-md-8 intro mx-auto">
                     <h1>About Me</h1>
                     <div class="divider"></div>
-                    <p>I am a frontend developer with a passion for web design and development. I have experience in HTML, CSS, Bootstrap, and JavaScript, and I am always looking to learn more. I love creating attractive and functional solutions to complex problems, and I am committed to delivering the best possible user experience.</p>
+                    <p>I am a passionate and dedicated front-end web developer with experience in creating responsive and user-friendly websites. With a strong background in HTML, CSS, JavaScript, and React, I strive to stay up-to-date with the latest trends and technologies. My ultimate goal is to provide clients with high-quality, visually appealing, and functional websites that exceed their expectations.</p>
                 </div>
             </div>
         </div>
@@ -108,7 +111,7 @@
     </section>
 
     <!--Milestone-->
-    <section id="milestone" class="overlay text-white text-center">
+    <section id="milestone" class="overlay text-white text-center" data-jarallax data-speed="0.5" class="jarallax">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-sm-6">
@@ -302,7 +305,7 @@
     </section>
 
     <!--Carousel-->
-    <section id="reviews" class="overlay text-white text-center">
+    <section id="reviews" class="overlay text-white text-center" data-jarallax data-speed="0.2" class="jarallax">
         <div class="owl-carousel owl-theme reviews-sider">
             <div class="review">
                 <div  class="quote">
@@ -331,6 +334,79 @@
 
     </section>
 
+    <!--Blog-->
+    <section id="blog" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 intro mx-auto text-center">
+                    <h1>Our Blog</h1>
+                    <div class="divider"></div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod a nam minus suscipit. Amet quis veniam facilis molestias quidem. Harum.</p>
+
+                </div>
+                <div class="blog-slider owl-carousel owl-theme">
+                    <div class="blog-post">
+                        <img src="img/astrbn.png" alt="blog1">
+                        <h5 class="mt-4"><a href="#">How to designe a blog with chatGPT?</a></h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore nostrum eligendi sequi impedit autem id quas ipsam in rerum.</p>
+                    </div>
+
+                    <div class="blog-post">
+                        <img src="img/astro2.png" alt="blog1">
+                        <h5 class="mt-4"><a href="#">How to designe a blog with chatGPT?</a></h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore nostrum eligendi sequi impedit autem id quas ipsam in rerum.</p>
+                    </div>
+
+                    <div class="blog-post">
+                        <img src="img/astrocent.png" alt="blog1">
+                        <h5 class="mt-4"><a href="#">How to designe a blog with chatGPT?</a></h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus labore nostrum eligendi sequi impedit autem id quas ipsam in rerum.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Franja-->
+        <div class="py-5 text-center text-white" id="cta">
+            <div class="container py-4">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-6">
+                        <h3>HAVE A PROJECT IN MIND? LET'S DISCUS.</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary">Get Started</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+<!--Footer and Contact-->
+        <footer id="contact" class="text-center py-5 bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Services</a>
+                            <a href="#">Blog</a>
+                        </div>
+                        <p class="mb-0 py-3">Copyright 2023 © Designed by LeoAristizabal. All rights reserved.</p>
+                        <div>
+                            <a href="#">Github</a>
+                            <a href="#">Instagram</a>
+                            <a href="#">Linkedin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -340,8 +416,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     </script>
 
+    <!--Carousel-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <!--Jarallax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/2.1.3/jarallax.min.js" integrity="sha512-QY6upQG0P0rfLHkTMEkugpvdDsg/jpF2cJySYPC4I7pIfQGwi8RwU4izgu9aoDAYGEVL5V8ioozqtXwhc8piMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!--js main-->
     <script src="js/main.js"></script>
